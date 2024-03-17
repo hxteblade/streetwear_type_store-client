@@ -1,0 +1,19 @@
+.ShopContainer {
+    margin-top: 8vh ;
+    width: 100%;
+    max-width: 4000px !important;
+    padding: 0px !important;
+    &Logo {
+        font-size: 3rem !important;
+        color: #000000;
+        font-family: Lombardia, sans-serif !important;
+        text-decoration:underline 2px solid black;
+    }
+    &Main {
+        margin-top: 5%;
+        max-width: 4000px !important;
+        display: flex !important;
+        justify-content: space-between !important;
+        padding: 0 !important;
+    }
+  }

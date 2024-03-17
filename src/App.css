@@ -1,0 +1,12 @@
+#root {
+  width: 100%;
+  flex:  auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  color:#fff
+}

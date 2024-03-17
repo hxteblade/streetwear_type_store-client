@@ -1,0 +1,39 @@
+.Container {
+    height: 100%;
+    overflow: auto;
+    display: flex !important;
+    flex-direction: column;
+    &Entry {
+        margin-top: 3%;
+        padding: 5%;
+        border-radius: 2%;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        & button {
+            width: 50%;
+        }
+        &Block{
+            display: flex !important;
+            border-radius: 1rem;
+            align-items: center;
+            background-color: #ebebeb;
+            color: black;
+            margin: 2%;
+            &Text {
+                & h2 {
+                    font-size: 30px;
+                }
+            }
+            &Remove {
+                padding: 0;
+                width: 10%;
+                height: 50%;
+                background-color: transparent;
+                & img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

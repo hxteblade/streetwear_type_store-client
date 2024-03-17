@@ -1,0 +1,40 @@
+.shadow{
+    top: 0;
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 88;
+}
+.image {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    background:  transparent url(../../../../img/modalBackground.jpg) center center no-repeat;
+    background-size: 100%;
+    padding: 5%;
+    &Form {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #0000009c;
+        border-radius: 2px;
+        padding: 20px 40px;
+        &ToggleButton {
+            margin-bottom: 10% !important;
+            width: 50% !important;
+            background-color: #6a6a6a !important;
+        }
+        &RemoveWarningText {
+            margin-top: 10% !important;
+        }
+    }
+}

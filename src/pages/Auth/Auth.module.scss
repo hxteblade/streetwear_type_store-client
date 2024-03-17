@@ -1,0 +1,54 @@
+.shadow{
+    top: 0;
+    background-color: transparent;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 88;
+}
+.image {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 3%;
+    background:  transparent url(../../img/modalBackground.jpg) center center no-repeat;
+    background-size: 100%;
+    padding: 5%;
+    &Form {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        background-color: #0000009c;
+        border-radius: 2px;
+        padding: 20px 40px;
+        &ToggleButton {
+            width: 50% !important;
+            background-color: #6a6a6a !important;
+        }
+        &User {
+            display: flex !important;
+            justify-content: space-around;
+            align-items: center;
+            margin-bottom: 5%;
+            padding: 2%;
+            border-radius: 10px;
+            background-color: black;
+            &Name {
+                padding: 2%;
+                border: 2px solid white;
+                border-radius: 4px;
+            }
+            &ExitButton {
+                background-color: white;
+                color: black;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.table {
+    max-width: 4000px !important;
+    padding: 0 !important;
+    width: 80% !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+// h1{
+//     font-size: 2rem !important;
+//     color: #d80000;
+//     font-family: Lombardia, sans-serif !important;
+// }

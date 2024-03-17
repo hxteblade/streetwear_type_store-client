@@ -1,0 +1,23 @@
+header {
+    border: 10px 20px;
+    font-size: 1.3em;
+    position: fixed;
+    width: 100vw;
+    height: 8vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 8vh;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+}
+.img {
+    background:  transparent url(../../../img/hxte.jpg) center center no-repeat;
+    background-size: 70%;
+    height: 100%;
+    width: 40%;
+}
